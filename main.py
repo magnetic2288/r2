@@ -4,3 +4,7 @@ def Countchar(str):
         return True
     else:
         return False
+
+a2 = filter(Countchar, a)
+
+print(list(a2))
